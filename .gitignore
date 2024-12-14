@@ -1,0 +1,22 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project specific
+/projects/*
+!projects/.gitkeep
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+*.log
